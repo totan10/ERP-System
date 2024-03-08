@@ -49,7 +49,7 @@ Ensure you have the following installed on your machine:
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone [(https://github.com/totan10/ERP-System.git)]
     ```
 
 2. Change into the project directory:
