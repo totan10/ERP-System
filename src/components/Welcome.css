@@ -1,0 +1,19 @@
+.welcome-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-content {
+  text-align: center;
+}
+
+.welcome-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.welcome-content button {
+  font-size: 1.2rem;
+}
