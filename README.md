@@ -49,13 +49,13 @@ Ensure you have the following installed on your machine:
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/totan10/ERP-System.git
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd erp-frontend
+    cd ERP-System
     ```
 
 3. Install dependencies:
@@ -83,11 +83,10 @@ Ensure you have the following installed on your machine:
 │   ├── index.html
 │   └── ...
 ├── src
-│   ├── components
+│   ├── components 
 │   ├── pages
-│   ├── styles
 │   ├── App.js
-│   └── ...
+│   └── index.js
 ├── ...
 └── README.md
 ```
