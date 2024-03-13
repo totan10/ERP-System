@@ -10,8 +10,8 @@ const localizer = momentLocalizer(moment);
 
 const CalendarView = () => {
   const events = [
-    { title: 'Order 1', start: moment().toDate(), end: moment().add(1, 'hour').toDate() },
-    { title: 'Order 2', start: moment().add(1, 'day').toDate(), end: moment().add(1, 'day').add(1, 'hour').toDate() },
+    { orderId:'1', title: 'Order 1', start: moment().toDate(), end: moment().add(1, 'hour').toDate() },
+    { orderId:'2', title: 'Order 2', start: moment().add(1, 'day').toDate(), end: moment().add(1, 'day').add(1, 'hour').toDate() },
   ];
 
   const [selectedDate, setSelectedDate] = useState(null);
@@ -76,8 +76,8 @@ const CalendarView = () => {
                 <div key={index}>
                   <h5>{order.title}</h5>
                   <p>Order ID: {order.orderId}</p>
-                  <p>Start Time: {moment(order.start).format('HH:mm')}</p>
-                  <p>End Time: {moment(order.end).format('HH:mm')}</p>
+                  <p>Delivery Start Time: {moment(order.start).format('HH:mm')}</p>
+                  <p>Delivery Due Time: {moment(order.end).format('HH:mm')}</p>
                 </div>
               ))}
           </Modal.Body>
