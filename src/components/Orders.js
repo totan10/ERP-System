@@ -2,21 +2,22 @@
 import React, { useState } from 'react';
 import { Container, Table, Button, Modal, Form, Pagination, Dropdown} from 'react-bootstrap';
 import Navbar from './Navbar';
+import './Welcome.css';
 
 const Orders = () => {
   const [orders, setOrders] = useState([
-    { id: 1, customerName: 'Customer 1', orderDate: '2022-01-01', status: 'Pending' },
-    { id: 2, customerName: 'Customer 2', orderDate: '2022-01-02', status: 'Shipped' },
-    { id: 3, customerName: 'Customer 1', orderDate: '2022-01-01', status: 'Pending' },
-    { id: 4, customerName: 'Customer 2', orderDate: '2022-01-02', status: 'Shipped' },
-    { id: 5, customerName: 'Customer 1', orderDate: '2022-01-01', status: 'Pending' },
-    { id: 6, customerName: 'Customer 2', orderDate: '2022-01-02', status: 'Shipped' },
-    { id: 7, customerName: 'Customer 1', orderDate: '2022-01-01', status: 'Pending' },
-    { id: 8, customerName: 'Customer 2', orderDate: '2022-01-02', status: 'Shipped' },
-    { id: 9, customerName: 'Customer 1', orderDate: '2022-01-01', status: 'Pending' },
-    { id: 10, customerName: 'Customer 2', orderDate: '2022-01-02', status: 'Shipped' },
-    { id: 11, customerName: 'Customer 1', orderDate: '2022-01-01', status: 'Pending' },
-    { id: 12, customerName: 'Customer 2', orderDate: '2022-01-02', status: 'Shipped' },
+    { id: 1, customerName: 'Customer 1', orderDate: '2024-01-01', status: 'Pending' },
+    { id: 2, customerName: 'Customer 2', orderDate: '2024-01-02', status: 'Shipped' },
+    { id: 3, customerName: 'Customer 1', orderDate: '2024-01-01', status: 'Pending' },
+    { id: 4, customerName: 'Customer 2', orderDate: '2024-01-02', status: 'Shipped' },
+    { id: 5, customerName: 'Customer 1', orderDate: '2024-01-01', status: 'Pending' },
+    { id: 6, customerName: 'Customer 2', orderDate: '2024-01-02', status: 'Shipped' },
+    { id: 7, customerName: 'Customer 1', orderDate: '2024-01-01', status: 'Pending' },
+    { id: 8, customerName: 'Customer 2', orderDate: '2024-01-02', status: 'Shipped' },
+    { id: 9, customerName: 'Customer 1', orderDate: '2024-01-01', status: 'Pending' },
+    { id: 10, customerName: 'Customer 2', orderDate: '2024-01-02', status: 'Shipped' },
+    { id: 11, customerName: 'Customer 1', orderDate: '2024-01-01', status: 'Pending' },
+    { id: 12, customerName: 'Customer 2', orderDate: '2024-01-02', status: 'Shipped' },
   ]);
 
   const [showEditModal, setShowEditModal] = useState(false);

@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import { Container, Table, Button, Modal, Form, Pagination, Dropdown } from 'react-bootstrap';
 import Navbar from './Navbar';
+import './Welcome.css';
 const Products = () => {
   const [products, setProducts] = useState([
     { id: 1, name: 'Product 1', category: 'Category A', price: 50.00, stockQuantity: 100 },
